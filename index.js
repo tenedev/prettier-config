@@ -11,6 +11,7 @@ const OPTIONAL_PLUGINS = [
   '@prettier/plugin-pug',
   '@prettier/plugin-ruby',
   '@prettier/plugin-xml',
+  'prettier-plugin-astro',
   'prettier-plugin-tailwindcss',
   'prettier-plugin-sh',
 ];

@@ -33,6 +33,7 @@ Currently supported:
 - [@prettier/plugin-pug](https://github.com/prettier/plugin-pug)
 - [@prettier/plugin-ruby](https://github.com/prettier/plugin-ruby)
 - [@prettier/plugin-xml](https://github.com/prettier/plugin-xml)
+- [prettier-plugin-astro](https://github.com/withastro/prettier-plugin-astro)
 - [prettier-plugin-tailwindcss](https://github.com/tailwindlabs/prettier-plugin-tailwindcss)
 - [prettier-plugin-sh](https://github.com/un-ts/prettier/tree/master/packages/sh)
 - [prettier-plugin-packagejson](https://github.com/matzkoh/prettier-plugin-packagejson) (default)
