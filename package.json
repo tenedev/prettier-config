@@ -22,7 +22,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "packageManager": "pnpm@11.5.0",
+  "packageManager": "pnpm@11.5.1",
   "files": [
     "index.js"
   ],
