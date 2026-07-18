@@ -19,13 +19,13 @@
     "url": "https://github.com/sponsors/tenedev"
   },
   "license": "Apache-2.0",
-  "files": [
-    "index.js"
-  ],
   "publishConfig": {
     "access": "public"
   },
   "packageManager": "pnpm@11.13.1",
+  "files": [
+    "index.js"
+  ],
   "main": "index.js",
   "engines": {
     "node": ">=14"
@@ -35,12 +35,12 @@
     "fmt:check": "prettier --check .",
     "prepare": "husky"
   },
-  "peerDependencies": {
-    "prettier": "3.x"
-  },
   "dependencies": {
     "prettier-plugin-packagejson": "^3.0.0",
     "sort-package-keys": "^2.0.0"
+  },
+  "peerDependencies": {
+    "prettier": "3.x"
   },
   "devDependencies": {
     "@tenedev/prettier-config": "^1.0.0",
