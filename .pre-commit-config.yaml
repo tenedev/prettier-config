@@ -3,7 +3,7 @@ ci:
   autoupdate_commit_msg: 'chore: autoupdate hook versions'
 
 repos:
-  - repo: https://github.com/teneplaysofficial/pre-commit
+  - repo: https://github.com/tenedev/pre-commit
     rev: v1.1.4
     hooks:
       - id: prettier
