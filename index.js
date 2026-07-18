@@ -3,7 +3,7 @@
 const { PACKAGE_KEY_ORDER } = require('sort-package-keys');
 
 /** @type {readonly string[]} */
-const PLUGINS = [  
+const PLUGINS = [
   // Bundled
   'prettier-plugin-packagejson',
 
@@ -26,8 +26,8 @@ const PLUGINS = [
 function resolvePlugin(packageName) {
   try {
     /**
- * Resolve plugin from consumer project first, fallback to this config package.
- */
+     * Resolve plugin from consumer project first, fallback to this config package.
+     */
     return require.resolve(packageName, { paths: [process.cwd(), __dirname] });
   } catch {
     return null;
