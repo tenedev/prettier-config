@@ -28,8 +28,9 @@ function resolvePlugin(packageName) {
     /**
      * Resolve plugin from consumer project first, fallback to this config package.
      */
-    return require.resolve(packageName, { paths: [process.cwd(), __dirname] });
-  } catch {
+    const resolvedPath = require.resolve(packageName, { paths: [process.cwd(), __dirname] });  
+    return process.platform === 'win32' ? require('url').pathToFileURL(resolvedPath).href : resolvedPath;
+      } catch {
     return null;
   }
 }
