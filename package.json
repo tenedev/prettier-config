@@ -1,6 +1,6 @@
 {
   "name": "@tenedev/prettier-config",
-  "version": "1.3.1-beta.1",
+  "version": "1.3.2-beta.0",
   "description": "✨ Dynamic shared Prettier configuration with automatic optional plugin detection.",
   "keywords": [
     "prettier",
