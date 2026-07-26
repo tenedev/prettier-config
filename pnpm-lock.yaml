@@ -18,8 +18,8 @@ importers:
         version: 2.0.0
     devDependencies:
       '@tenedev/prettier-config':
-        specifier: ^1.0.0
-        version: 1.0.0(prettier@3.8.1)
+        specifier: ^1.3.0
+        version: 1.3.0(prettier@3.8.1)
       '@types/node':
         specifier: ^25.3.0
         version: 25.3.0
@@ -31,10 +31,10 @@ importers:
         version: 17.0.2
 
 packages:
-  '@tenedev/prettier-config@1.0.0':
+  '@tenedev/prettier-config@1.3.0':
     resolution:
       {
-        integrity: sha512-JdtsSifLDfYZ8TtMJcT78T3Wk7tCux7HL/ArDZnLCjJo8akFcMWLuqw+zYBhLAF/28/S+3YLEQUnavnd/zs4rw==,
+        integrity: sha512-2Ofz06jCqpDT8VqoiPn6dF9KcBe+DnZUEv614mvo+Vvnmn5e/QvOg9G1Esg83uZ/LwslBjR9J3tHs8uw/giG7A==,
       }
     engines: { node: '>=14' }
     peerDependencies:
@@ -356,9 +356,11 @@ packages:
     hasBin: true
 
 snapshots:
-  '@tenedev/prettier-config@1.0.0(prettier@3.8.1)':
+  '@tenedev/prettier-config@1.3.0(prettier@3.8.1)':
     dependencies:
       prettier: 3.8.1
+      prettier-plugin-packagejson: 3.0.0(prettier@3.8.1)
+      sort-package-keys: 2.0.0
 
   '@types/node@25.3.0':
     dependencies:
