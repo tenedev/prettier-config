@@ -11,8 +11,8 @@ importers:
         specifier: 3.x
         version: 3.8.1
       prettier-plugin-packagejson:
-        specifier: ^3.0.0
-        version: 3.0.0(prettier@3.8.1)
+        specifier: ^3.0.2
+        version: 3.0.2(prettier@3.8.1)
       sort-package-keys:
         specifier: ^2.0.0
         version: 2.0.0
@@ -204,10 +204,10 @@ packages:
       }
     engines: { node: '>=12' }
 
-  prettier-plugin-packagejson@3.0.0:
+  prettier-plugin-packagejson@3.0.2:
     resolution:
       {
-        integrity: sha512-z8/QmPSqx/ANvvQMWJSkSq1+ihBXeuwDEYdjX3ZjRJ5Ty1k7vGbFQfhzk2eDe0rwS/TNyRjWK/qnjJEStAOtDw==,
+        integrity: sha512-kmoj3hEynXwoHDo8ZhmWAIjRBoQWCDUVackiWfSDWdgD0rS3LGB61T9zoVbume/cotYdCoadUh4sqViAmXvpBQ==,
       }
     peerDependencies:
       prettier: ^3
@@ -359,7 +359,7 @@ snapshots:
   '@tenedev/prettier-config@1.3.0(prettier@3.8.1)':
     dependencies:
       prettier: 3.8.1
-      prettier-plugin-packagejson: 3.0.0(prettier@3.8.1)
+      prettier-plugin-packagejson: 3.0.2(prettier@3.8.1)
       sort-package-keys: 2.0.0
 
   '@types/node@25.9.5':
@@ -442,7 +442,7 @@ snapshots:
 
   picomatch@4.0.4: {}
 
-  prettier-plugin-packagejson@3.0.0(prettier@3.8.1):
+  prettier-plugin-packagejson@3.0.2(prettier@3.8.1):
     dependencies:
       sort-package-json: 3.6.0
     optionalDependencies:
