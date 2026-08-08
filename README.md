@@ -1,6 +1,6 @@
 # @tenedev/prettier-config
 
-> A dynamic, plug-and-play shared Prettier configuration that automatically enables optional plugins if they are installed.
+> _A dynamic, plug-and-play shared Prettier configuration that automatically enables supported plugins when they are installed in your project_
 
 [![npm version](https://img.shields.io/npm/v/@tenedev/prettier-config.svg?logo=npm&color=brightgreen)](https://www.npmjs.com/package/@tenedev/prettier-config)
 [![Downloads](https://img.shields.io/npm/dt/@tenedev/prettier-config?logo=npm)](https://www.npmjs.com/package/@tenedev/prettier-config)
@@ -25,7 +25,7 @@ That's it 🎉
 
 ## Automatic Plugin Detection
 
-`@tenedev/prettier-config` uses **dynamic plugin resolution** to automatically enable supported Prettier plugins and loaded automatically when installed in your project. No additional Prettier configuration is required.
+`@tenedev/prettier-config` uses **dynamic plugin resolution** to automatically detect and enable supported Prettier plugins installed in your project. No additional Prettier configuration is required.
 
 ### How it works
 
@@ -36,9 +36,15 @@ Plugin installed   → Automatically enabled
 Plugin not found   → Silently skipped
 ```
 
-This makes the configuration **plug-and-play** while keeping plugin dependencies optional.
+This makes the configuration **plug-and-play** while keeping optional plugin dependencies truly optional.
 
-For example, if your project uses Astro `npm install -D prettier-plugin-astro` No additional Prettier configuration is required, The Astro plugin will be detected and enabled automatically.
+For example, if your project uses Astro, install the Astro plugin:
+
+```bash
+npm install -D prettier-plugin-astro
+```
+
+That's it. You don't need to add `prettier-plugin-astro` to the `plugins` array in your Prettier configuration. `@tenedev/prettier-config` automatically detects and enables it when installed in your project.
 
 ### Supported Plugins
 
@@ -60,13 +66,17 @@ Use project-installed version
 
 This allows you to override a bundled plugin version when needed without requiring any additional Prettier configuration.
 
+The following plugins are bundled with `@tenedev/prettier-config`:
+
 - [prettier-plugin-packagejson](https://github.com/matzkoh/prettier-plugin-packagejson)
 
 #### Optional Plugins
 
-These plugins are not bundled with `@tenedev/prettier-config`. They are automatically detected and enabled when installed in your project.
+These plugins are **not bundled** with `@tenedev/prettier-config`. They are automatically detected and enabled when installed in your project.
 
 If an optional plugin is not installed, it is simply skipped and does not affect the rest of the configuration.
+
+The following plugins are supported by `@tenedev/prettier-config` and are automatically detected when installed in your project:
 
 - [@prettier/plugin-php](https://github.com/prettier/plugin-php)
 - [@prettier/plugin-pug](https://github.com/prettier/plugin-pug)
