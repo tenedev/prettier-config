@@ -12,9 +12,17 @@ const PLUGINS = [
   '@prettier/plugin-pug',
   '@prettier/plugin-ruby',
   '@prettier/plugin-xml',
+  '@shopify/prettier-plugin-liquid',
   'prettier-plugin-astro',
-  'prettier-plugin-tailwindcss',
+  'prettier-plugin-css-order',
+  'prettier-plugin-jsdoc',
+  'prettier-plugin-organize-imports',
+  'prettier-plugin-prisma',
   'prettier-plugin-sh',
+  'prettier-plugin-sql',
+  'prettier-plugin-svelte',
+  'prettier-plugin-tailwindcss',
+  'prettier-plugin-toml',
 ];
 
 /**
