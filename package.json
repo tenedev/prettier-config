@@ -8,6 +8,10 @@
     "shared-config",
     "code-formatting",
     "formatting",
+    "prettier-plugin",
+    "code-formatter",
+    "formatter",
+    "prettier-plugins",
     "developer-tools"
   ],
   "repository": {
@@ -48,7 +52,7 @@
     "husky": "^9.1.7",
     "lint-staged": "^17.2.0"
   },
-  "prettier": "@tenedev/prettier-config",
+  "prettier": "./index.js",
   "lint-staged": {
     "*": "prettier --write --ignore-unknown"
   }
