@@ -5,6 +5,10 @@
 [![npm version](https://img.shields.io/npm/v/@tenedev/prettier-config.svg?logo=npm&color=brightgreen)](https://www.npmjs.com/package/@tenedev/prettier-config)
 [![Downloads](https://img.shields.io/npm/dt/@tenedev/prettier-config?logo=npm)](https://www.npmjs.com/package/@tenedev/prettier-config)
 
+> [!CAUTION]
+> This package is deprecated.
+> Use [`@pegora/prettier-config`](https://github.com/pegoraio/prettier-config) instead.
+
 ## Installation
 
 ```bash
